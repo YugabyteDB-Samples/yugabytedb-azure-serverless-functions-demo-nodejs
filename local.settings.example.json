@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "AzureWebJobsStorage": "",
+    "DB_USERNAME": "admin",
+    "DB_PASSWORD": "[YUGABYTEDB_MANAGED_PASSWORD]",
+    "DB_HOST": "[YUGABYTEDB_MANAGED_HOST]",
+    "DB_NAME": "yugabyte",
+    "DB_CERTIFICATE": "[BASE64_ENCODED_YUGABYTEDB_MANAGED_CERTIFICATE]"
+  }
+}
